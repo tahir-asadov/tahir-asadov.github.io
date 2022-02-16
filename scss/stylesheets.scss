@@ -1,6 +1,6 @@
 // Libraries
 // @import 'libs/animate';
-// @import 'libs/fontawesome';
+@import 'libs/fontawesome';
 // @import 'libs/jquery.bxslider';
 // @import 'libs/aos';
 // @import 'libs/magnific-popup';
@@ -18,7 +18,7 @@
 // @import 'partials/animations';
 
 // Sections
-// @import 'sections/section';
+@import 'sections/header';
 
 body.bg {
   background-image: url(../images/bgs/home.png);

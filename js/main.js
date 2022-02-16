@@ -110,5 +110,8 @@ $(document).ready(function() {
     }
   });
 
+  $( '.header-section .menu-button' ).click( function() {
+    $( this ).toggleClass( 'active' );
+  } );
 
 });
