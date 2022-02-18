@@ -1,0 +1,33 @@
+.menu-section {
+  background: #222;
+  color: darkgray;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  height: 0;
+  .row {
+    padding: 20px 0;
+    .container {
+      .menu {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0;
+        a, span {
+          text-decoration: none;
+          display: block;
+          cursor: pointer;
+          padding: 5px 0;
+          color: darkgray;
+          &:hover {
+            color: $blue;
+          }
+        }
+      }
+    }
+  }
+}
+
+body.menu-open {
+  .menu-section {
+    height: 160px;
+  }
+}
