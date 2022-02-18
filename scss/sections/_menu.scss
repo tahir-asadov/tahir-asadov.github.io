@@ -7,28 +7,20 @@
   .row {
     padding: 20px 0;
     .container {
-      display: grid;
-      grid-template-columns: 200px auto;
-      .left {
-        .menu {
-          display: flex;
-          flex-direction: column;
-          padding: 15px 0;
-          a, span {
-            text-decoration: none;
-            display: block;
-            cursor: pointer;
-            padding: 5px 0;
-            color: darkgray;
-            &:hover {
-              color: $blue;
-            }
+      .menu {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0;
+        a, span {
+          text-decoration: none;
+          display: block;
+          cursor: pointer;
+          padding: 5px 0;
+          color: darkgray;
+          &:hover {
+            color: $blue;
           }
         }
-      }
-      .right {
-        display: flex;
-        align-items: center;
       }
     }
   }
@@ -36,6 +28,6 @@
 
 body.menu-open {
   .menu-section {
-    height: auto;
+    height: 160px;
   }
 }

@@ -2,8 +2,8 @@
   padding-top: 50px;
   .row {
     .container {
-      display: flex;
-      justify-content: space-between;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       .left {
         h1 {
           font-size: 27.2px;
@@ -16,17 +16,23 @@
         }
       }
       .right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
         .menu-button {
           position: relative;
           display: block;
+          width: 26px;
+          height: 100%;
           > i {
             position: absolute;
             top: 0;
-            left: 0;
-            width: 100%;
+            right: 0;
+            width: 26px;
             height: 100%;
             display: flex;
             justify-content: center;
+            align-items: center;
             font-size: 30px;
             transition: all 0.1s ease-in-out;
             cursor: pointer;
