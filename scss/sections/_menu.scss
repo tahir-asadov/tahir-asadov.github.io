@@ -29,20 +29,6 @@
       .right {
         display: flex;
         align-items: center;
-        ul {
-          margin: 0;
-          padding: 0;
-          li {
-            list-style: none;
-            display: flex;
-            align-items: center;
-            &:before {
-              content: "✓";
-              display: inline-block;
-              margin-right: 5px;
-            }
-          }
-        }
       }
     }
   }
