@@ -34,17 +34,20 @@
               opacity: 0;
             }
           }
-          &.active {
-            i {
-              &:first-child {
-                opacity: 0;
-              }
-              &:last-child {
-                opacity: 1;
-              }
-            }
-          }
         }
+      }
+    }
+  }
+}
+
+body.menu-open {
+  .header-section .row .container .right .menu-button {
+    i {
+      &:first-child {
+        opacity: 0;
+      }
+      &:last-child {
+        opacity: 1;
       }
     }
   }
