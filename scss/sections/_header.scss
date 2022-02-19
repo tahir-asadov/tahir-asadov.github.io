@@ -58,3 +58,19 @@ body.menu-open {
     }
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .header-section {
+    .row {
+      .container {
+        .left {
+          h1 {
+            a {
+              color: rgba(255, 255, 255, 0.9);
+            }
+          }
+        }
+      }
+    }
+  }
+}

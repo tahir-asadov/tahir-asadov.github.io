@@ -62,3 +62,13 @@ table {
     }
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+  }
+
+  a {
+    color: $light;
+  }
+}

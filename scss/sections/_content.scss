@@ -1,9 +1,5 @@
 .content-section {
   padding-top: 200px;
-  .row-top {
-    .container {
-    }
-  }
   .row-middle {
     .container {
       .posts {
@@ -100,6 +96,23 @@
     }
     .row-bottom {
       .container {
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .content-section {
+    padding-top: 200px;
+    .row-middle {
+      .container {
+        .posts {
+          .post {
+            .thumbnail {
+              background-color: #111;
+            }
+          }
+        }
       }
     }
   }

@@ -13,7 +13,6 @@
           font-family: 'Raleway', sans-serif;
           text-decoration: none;
           font-weight: bold;
-          color: #222;
           &:hover svg {
             fill: #14a800;
             color: #14a800;
@@ -27,13 +26,28 @@
           justify-content: flex-end;
           > a {
             margin-left: 15px;
-            color: #222;
             font-size: 20px;
             display: flex;
             align-items: center;
             text-decoration: none;
             &:hover {
               color: $blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer-section {
+    .row {
+      .container {
+        .left {
+          a {
+            svg {
+              fill: $light;
             }
           }
         }
