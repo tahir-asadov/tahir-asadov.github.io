@@ -1,4 +1,4 @@
-.content-section {
+.main-section {
   padding-top: 200px;
   .row-middle {
     .container {
@@ -76,7 +76,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .content-section {
+  .main-section {
     padding-top: 200px;
     .row-top {
       .container {
@@ -94,15 +94,11 @@
         }
       }
     }
-    .row-bottom {
-      .container {
-      }
-    }
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  .content-section {
+  .main-section {
     padding-top: 200px;
     .row-middle {
       .container {
